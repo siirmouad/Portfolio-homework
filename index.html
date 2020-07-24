@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!--  font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css"
+    />
+
+    <!-- //Css stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Mouad Kharbach Portfolio</title>
+  </head>
+  <body>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+
+    <div class="topnav" id="myTopnav">
+      <div id="navHome" class="active">Home</div>
+
+      <div id="navPortfolio">Portfolio</div>
+      <div class="icon">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+
+    <!-----------------ABOUT ME CONTAINER------------------->
+    <main class="container flexbox p-4 mx-auto ml-md-auto" id="pageAboutMe">
+      <header class="page-header">
+        <h1>Mouad Kharbach</h1>
+      </header>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="assets/Mouad Kharbach .jpg"
+                  alt="MouadKharbach picture"
+                  style="width: 300px; height: 500px;"
+                />
+              </div>
+              <div class="flip-card-back" >
+              <h1>Mouad Kharbach</h1>
+              <p>Full Stack Developer</p>
+              <p>Finance and Accounting Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <p class="about-me-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+          dignissimos est quis eum quae quod perspiciatis vero eaque numquam
+          impedit laudantium qui, repudiandae, sunt animi similique sit, nemo
+          porro molestias! Obcaecati id perferendis fugit! Iure rem rerum ipsa
+          natus numquam, ex esse perspiciatis reiciendis dignissimos sunt
+          laboriosam, sint omnis necessitatibus ipsam vero dolore. Placeat
+          deleniti reiciendis sit quasi ducimus delectus.
+        </p>
+      </div>
+    </main>
+
+    <!-----------------PORTFOLIO CONTAINER------------------->
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container hide" id="pagePortfolio">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="assets/Capture.PNG" style="width: 1000px; height:500px";  />
+        <a
+          href="https://darnocer.github.io/Project-01-Date-Nite-App/"
+          target="https://darnocer.github.io/Project-01-Date-Nite-App/"
+          target="_blank"
+          >
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="assets/Capture1.PNG" style="width: 1000px; height: 500px";  />
+        <a href="https://shrouded-lowlands-31059.herokuapp.com/" target="_blank"
+          >
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <a href="https://siirmouad.github.io/Password-generator-homework3/" target="_blank">
+          <img src="assets/password generator.PNG" style="width: 1000px; height: 500px"; 
+        /></a>
+       
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <a
+          href="https://siirmouad.github.io/WeatherDashboardApp/" target="_blank" >
+        <img src="assets/Capture3.PNG" style="width: 1000px; height: 500px";   />
+        
+        </a>
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <!-- The dots/circles -->
+      <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+    <!-- footer -->
+
+    <footer>
+     
+      <div>
+        <a href="https://github.com/siirmouad" target="_blank" 
+          ><img
+            src="assets/github-logo-icon-of-glyph-style-available-in-svg-png-eps-ai-github-icon-png-256_256.png"
+            style="width: 80px;"
+            
+          />
+        </a>
+
+        <a href="https://www.linkedin.com/in/mouad-kharbach-62ba1397/" target="_blank" 
+          ><img src="assets/linkden.jpg" style="width: 80px;"  />
+        </a>
+        <a href="https://drive.google.com/file/d/1Wa_KI974F6xbMwXu9gYkwSBCWG6MOLKv/view?usp=sharing" target="_blank"/>
+        <img src="assets/resume.png" style="width: 80px;" />
+        </a>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
